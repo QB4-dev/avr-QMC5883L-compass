@@ -26,7 +26,7 @@ SOFTWARE.*/
 #ifndef QMC5883L_H_
 #define QMC5883L_H_
 
-#define QMC5883L_ADDR     			 (0x0D <<1) //device address
+#define QMC5883L_ADDR                (0x0D <<1) //device address
 #define QMC5883L_I2C_INIT 0          //init i2c during chip init
 
 #define QMC5883_REG_OUT_X_LSB        (0x00)
